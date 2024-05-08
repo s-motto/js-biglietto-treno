@@ -15,6 +15,6 @@ else {
     finalPrice = Number(price).toFixed(2)
 };
 
-console.log(`Il prezzo del tuo biglietto è ${finalPrice}`);
+console.log(`Il prezzo del tuo biglietto è ${finalPrice}€`);
 
 document.getElementById('ticketPrice').innerHTML = finalPrice;
